@@ -1,0 +1,381 @@
+<resources>
+    <string name="app_name">Bricolini</string>
+    <!--Required for facebook authentication-->
+    <string name="facebook_application_id" translatable="false">356994571569973</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb356994571569973</string>
+    <string name="message" translatable="false">Erreur</string>
+
+    <array name="Services">
+        <item>Menuiserie</item>
+        <item>Jardinage</item>
+        <item>Petits Travaux</item>
+        <item>Plomberie</item>
+        <item>Revetement</item>
+        <item>Electricité</item>
+    </array>
+
+    <array name="Villes">
+        <item>Ariana</item>
+        <item>Béja</item>
+        <item>Ben Arous</item>
+        <item>Bizerte</item>
+        <item>Gabes</item>
+        <item>Gafsa</item>
+        <item>Jendouba</item>
+        <item>Kairouan</item>
+        <item>Kasserine</item>
+        <item>Kebili</item>
+        <item>Manouba</item>
+        <item>Le Kef</item>
+        <item>Mahdia</item>
+        <item>Médenine</item>
+        <item>Monastir</item>
+        <item>Nabeul</item>
+        <item>Sfax</item>
+        <item>Sidi Bouzid</item>
+        <item>Siliana</item>
+        <item>Sousse</item>
+        <item>Tataouine</item>
+        <item>Tozeur</item>
+        <item>Tunis</item>
+        <item>Zaghouan</item>
+    </array>
+
+    <array name="Ariana_list">
+        <item>Ariana Ville</item>
+        <item>Ettadhamen</item>
+        <item>Kalaat Landlous</item>
+        <item>La Soukra</item>
+        <item>Mnihla</item>
+        <item>Raoued</item>
+        <item>Sidi Thabet</item>
+    </array>
+
+    <array name="Beja_list">
+        <item>Amdoun</item>
+        <item>Beja Nord</item>
+        <item>Beja Sud</item>
+        <item>Goubellat</item>
+        <item>Mejez El Bab</item>
+        <item>Nefza</item>
+        <item>Teboursouk</item>
+        <item>Testour</item>
+        <item>Thibar</item>
+    </array>
+
+    <array name="Ben_Arous_list">
+        <item>Ben Arous</item>
+        <item>Bou Mhel El Bassatine</item>
+        <item>El Mourouj</item>
+        <item>Ezzahra</item>
+        <item>Fouchana</item>
+        <item>Hammam Chatt</item>
+        <item>Hammam Lif</item>
+        <item>Megrine</item>
+        <item>Mohamadia</item>
+        <item>Mornag</item>
+        <item>Nouvelle Medina</item>
+        <item>Rades</item>
+    </array>
+
+    <array name="Bizerte_list">
+        <item>Bizerte Nord</item>
+        <item>Bizerte Sud</item>
+        <item>El Alia</item>
+        <item>Ghar El Melh</item>
+        <item>Ghezala</item>
+        <item>Jarzouna</item>
+        <item>Joumine</item>
+        <item>Mateur</item>
+        <item>Menzel Bourguiba</item>
+        <item>Menzel Jemil</item>
+        <item>Ras Jebel</item>
+        <item>Sejnane</item>
+        <item>Tinja</item>
+        <item>Utique</item>
+    </array>
+
+    <array name="Gabes_list">
+        <item>El Hamma</item>
+        <item>El Metouia</item>
+        <item>Gabes Medina</item>
+        <item>Gabes Ouest</item>
+        <item>Gabes Sud</item>
+        <item>Ghannouche</item>
+        <item>Mareth</item>
+        <item>Matmata</item>
+        <item>Menzel Habib</item>
+        <item>Nouvelle Matmata</item>
+    </array>
+
+    <array name="Gafsa_list">
+        <item>Belkhir</item>
+        <item>El Guettar</item>
+        <item>El Ksar</item>
+        <item>El Mdhilla</item>
+        <item>Gafsa Nord</item>
+        <item>Gafsa Sud</item>
+        <item>Metlaoui</item>
+        <item>Moulares</item>
+        <item>Redeyef</item>
+        <item>Sidi Aich</item>
+        <item>Sned</item>
+    </array>
+
+    <array name="Jendouba_list">
+        <item>Ain Draham</item>
+        <item>Balta Bou Aouene</item>
+        <item>Bou Salem</item>
+        <item>Fernana</item>
+        <item>Ghardimaou</item>
+        <item>Jendouba</item>
+        <item>Jendouba Nord</item>
+        <item>Oued Mliz</item>
+        <item>Tabarka</item>
+    </array>
+
+    <array name="Kairouan_list">
+        <item>Bou Hajla</item>
+        <item>Chebika</item>
+        <item>Cherarda</item>
+        <item>El Ala</item>
+        <item>Haffouz</item>
+        <item>Hajeb El Ayoun</item>
+        <item>Kairouan Nord</item>
+        <item>Kairouan Sud</item>
+        <item>Nasrallah</item>
+        <item>Oueslatia</item>
+        <item>Sbikha</item>
+    </array>
+
+    <array name="Kasserine_list">
+        <item>El Ayoun</item>
+        <item>Ezzouhour</item>
+        <item>Feriana</item>
+        <item>Foussana</item>
+        <item>Haidra</item>
+        <item>Hassi El Frid</item>
+        <item>Jediliane</item>
+        <item>Kasserine Nord</item>
+        <item>Kasserine Sud</item>
+        <item>Mejel Bel Abbes</item>
+        <item>Sbeitla</item>
+        <item>Sbiba</item>
+        <item>Thala</item>
+    </array>
+
+    <array name="Kebili_list">
+        <item>Douz</item>
+        <item>El Faouar</item>
+        <item>Kebili Nord</item>
+        <item>Kebili Sud</item>
+        <item>Souk El Ahad</item>
+    </array>
+
+    <array name="Manouba_list">
+        <item>Borj El Amri</item>
+        <item>Douar Hicher</item>
+        <item>El Battan</item>
+        <item>Jedaida</item>
+        <item>Mannouba</item>
+        <item>Mornaguia</item>
+        <item>Oued Ellil</item>
+        <item>Tebourba</item>
+    </array>
+
+    <array name="Le_Kef_list">
+        <item>Dahmani</item>
+        <item>El Ksour</item>
+        <item>Jerissa</item>
+        <item>Kalaa El Khasba</item>
+        <item>Kalaat Sinane</item>
+        <item>Le Kef Est</item>
+        <item>Le Kef Ouest</item>
+        <item>Le Sers</item>
+        <item>Nebeur</item>
+        <item>Sakiet Sidi Youssef</item>
+        <item>Tajerouine</item>
+        <item>Touiref</item>
+    </array>
+
+    <array name="Mahdia_list">
+        <item>Bou Merdes</item>
+        <item>Chorbane</item>
+        <item>El Jem</item>
+        <item>Hbira</item>
+        <item>Ksour Essaf</item>
+        <item>La Chebba</item>
+        <item>Mahdia</item>
+        <item>Melloulech</item>
+        <item>Ouled Chamakh</item>
+        <item>Sidi Alouene</item>
+        <item>Souassi</item>
+    </array>
+
+    <array name="Medenine_list">
+        <item>Ajim</item>
+        <item>Ben Guerdane</item>
+        <item>Beni Khedache</item>
+        <item>Houmet Essouk</item>
+        <item>Medenine Nord</item>
+        <item>Medenine Sud</item>
+        <item>Midoun</item>
+        <item>Sidi Makhlouf</item>
+        <item>Zarzis</item>
+    </array>
+
+    <array name="Monastir_list">
+        <item>Bekalta</item>
+        <item>Bembla</item>
+        <item>Beni Hassen</item>
+        <item>Jemmal</item>
+        <item>Ksar Helal</item>
+        <item>Ksibet El Mediouni</item>
+        <item>Moknine</item>
+        <item>Monastir</item>
+        <item>Ouerdanine</item>
+        <item>Sahline</item>
+        <item>Sayada Lamta Bou Hajar</item>
+        <item>Teboulba</item>
+        <item>Zeramdine</item>
+    </array>
+
+    <array name="Nabeul_list">
+        <item>Beni Khalled</item>
+        <item>Beni Khiar</item>
+        <item>Bou Argoub</item>
+        <item>Dar Chaabane Elfehri</item>
+        <item>El Haouaria</item>
+        <item>El Mida</item>
+        <item>Grombalia</item>
+        <item>Hammam El Ghezaz</item>
+        <item>Hammamet</item>
+        <item>Kelibia</item>
+        <item>Korba</item>
+        <item>Menzel Bouzelfa</item>
+        <item>Menzel Temime</item>
+        <item>Nabeul</item>
+        <item>Soliman</item>
+        <item>Takelsa</item>
+    </array>
+
+    <array name="Sfax_list">
+        <item>Agareb</item>
+        <item>Bir Ali Ben Khelifa</item>
+        <item>El Amra</item>
+        <item>El Hencha</item>
+        <item>Esskhira</item>
+        <item>Ghraiba</item>
+        <item>Jebeniana</item>
+        <item>Kerkenah</item>
+        <item>Mahras</item>
+        <item>Menzel Chaker</item>
+        <item>Sakiet Eddaier</item>
+        <item>Sakiet Ezzit</item>
+        <item>Sfax Est</item>
+        <item>Sfax Sud</item>
+        <item>Sfax Ville</item>
+    </array>
+
+    <array name="Sidi_Bouzid_list">
+        <item>Ben Oun</item>
+        <item>Bir El Haffey</item>
+        <item>Cebbala</item>
+        <item>Jilma</item>
+        <item>Maknassy</item>
+        <item>Menzel Bouzaiene</item>
+        <item>Mezzouna</item>
+        <item>Ouled Haffouz</item>
+        <item>Regueb</item>
+        <item>Sidi Bouzid Est</item>
+        <item>Sidi Bouzid Ouest</item>
+        <item>Souk Jedid</item>
+    </array>
+
+    <array name="Siliana_list">
+        <item>Bargou</item>
+        <item>Bou Arada</item>
+        <item>El Aroussa</item>
+        <item>Gaafour</item>
+        <item>Kesra</item>
+        <item>Le Krib</item>
+        <item>Makthar</item>
+        <item>Rohia</item>
+        <item>Sidi Bou Rouis</item>
+        <item>Siliana Nord</item>
+        <item>Siliana Sud</item>
+    </array>
+
+    <array name="Sousse_list">
+        <item>Akouda</item>
+        <item>Bou Ficha</item>
+        <item>Enfidha</item>
+        <item>Hammam Sousse</item>
+        <item>Hergla</item>
+        <item>Kalaa El Kebira</item>
+        <item>Kalaa Essghira</item>
+        <item>Kondar</item>
+        <item>Msaken</item>
+        <item>Sidi Bou Ali</item>
+        <item>Sidi El Heni</item>
+        <item>Sousse Jaouhara</item>
+        <item>Sousse Riadh</item>
+        <item>Sousse Ville</item>
+    </array>
+
+    <array name="Tataouine_list">
+        <item>Bir Lahmar</item>
+        <item>Dhehiba</item>
+        <item>Ghomrassen</item>
+        <item>Remada</item>
+        <item>Smar</item>
+        <item>Tataouine Nord</item>
+        <item>Tataouine Sud</item>
+    </array>
+
+    <array name="Tozeur_list">
+        <item>Degueche</item>
+        <item>Hezoua</item>
+        <item>Nefta</item>
+        <item>Tameghza</item>
+        <item>Tozeur</item>
+    </array>
+
+    <array name="Tunis_list">
+        <item>Bab Bhar</item>
+        <item>Bab Souika</item>
+        <item>Carthage</item>
+        <item>Cite El Khadra</item>
+        <item>El Hrairia</item>
+        <item>El Kabbaria</item>
+        <item>El Kram</item>
+        <item>El Menzah</item>
+        <item>El Omrane</item>
+        <item>El Omrane Superieur</item>
+        <item>El Ouerdia</item>
+        <item>Essijoumi</item>
+        <item>Ettahrir</item>
+        <item>Ezzouhour</item>
+        <item>Jebel Jelloud</item>
+        <item>La Goulette</item>
+        <item>La Marsa</item>
+        <item>La Medina</item>
+        <item>Le Bardo</item>
+        <item>Sidi El Bechir</item>
+        <item>Sidi Hassine</item>
+    </array>
+
+    <array name="Zaghouan_list">
+        <item>Bir Mcherga</item>
+        <item>El Fahs</item>
+        <item>Ennadhour</item>
+        <item>Hammam Zriba</item>
+        <item>Saouef</item>
+        <item>Zaghouane</item>
+    </array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+</resources>

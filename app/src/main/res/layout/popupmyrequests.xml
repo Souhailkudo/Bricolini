@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:background="@drawable/border"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/ic_close_black_24dp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/remplir"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Ce service est-il achevé? "
+            android:textColor="#285FBA"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:onClick="ServiceInqueue"
+            android:text="Non"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnRefuse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:onClick="SercviceCompleted"
+            android:text="Oui"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ratetext"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Donnez votre avis "
+        android:textColor="#285FBA"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:numStars="5"
+        android:stepSize=".5" />
+    <Button
+        android:text="Confirmer"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/button_background"
+        android:id="@+id/submit_button"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

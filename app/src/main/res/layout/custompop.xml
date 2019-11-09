@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@drawable/border"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/ic_close_black_24dp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/remplir"
+            android:layout_width="322dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:text="Demander un service"
+            android:textColor="#285FBA"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/techDetails"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:scrollbars="vertical" />
+
+        <EditText
+            android:id="@+id/dateTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date d'éxpiration" />
+       <!--     android:layout_marginTop="80dp" -->
+            android:ems="15"
+            android:drawablePadding="10dp"
+            android:hint="Date d'expiration JJ-MM-YY"
+            android:inputType="date"
+            android:textColorLink="@color/colorPrimary"
+
+
+            />
+
+        <EditText
+            android:id="@+id/detailsTextField"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:ems="15"
+            android:hint="Description du problème"
+            android:lines="5"
+            android:maxLength="200"
+            android:maxLines="6"
+            android:textColorLink="@color/colorPrimary"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:onClick="Addrequest"
+        android:text="Confirmer votre demande"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

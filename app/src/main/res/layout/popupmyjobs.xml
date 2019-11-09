@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    android:background="@drawable/border"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/ic_close_black_24dp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/remplir"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Voulez-vous acceptez cette demande? "
+            android:textColor="#285FBA"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:onClick="RejectRequest"
+            android:text="Non"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnRefuse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:onClick="AcceptRequest"
+            android:text="Oui"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

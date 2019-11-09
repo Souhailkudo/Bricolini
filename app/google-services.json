@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1007438529308",
+    "firebase_url": "https://bricolini-cfbff.firebaseio.com",
+    "project_id": "bricolini-cfbff",
+    "storage_bucket": "bricolini-cfbff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007438529308:android:e4bd2b515b8f7dcf",
+        "android_client_info": {
+          "package_name": "tn.supcom.bricolini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007438529308-vf1r9be5vvcudjpkfpjt43kfkd7jv05m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tn.supcom.bricolini",
+            "certificate_hash": "59fca4a2e84f657d00cf05d3bbb5600f1ef834b3"
+          }
+        },
+        {
+          "client_id": "1007438529308-teb1he642gavrjor5ofbjsgavfduf0bv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tn.supcom.bricolini",
+            "certificate_hash": "95fdca70ad9450627bb277af6ec314441eb18a42"
+          }
+        },
+        {
+          "client_id": "1007438529308-i27qtl2fcvrssbjga6oidsdg80r7hn1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmVeHVSU6ma9JEjekaNxdOYFp88OWEL_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007438529308-i27qtl2fcvrssbjga6oidsdg80r7hn1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
